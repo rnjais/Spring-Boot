@@ -20,6 +20,6 @@ public class HomeController {
     }
   @GetMapping("/to/user")
     public Map<String, String> getUser() {
-        return Map.of("name", "Aryan", "role", "Developer");
+        return Map.of("name", "Aryan", "Techrole", "Developer");
     }
 }
