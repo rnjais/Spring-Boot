@@ -18,7 +18,7 @@ public class HomeController {
     public String to(){
         return "Aryan";
     }
-    @GetMapping("/user")
+  @GetMapping("/to/user")
     public Map<String, String> getUser() {
         return Map.of("name", "Aryan", "role", "Developer");
     }
